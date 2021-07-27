@@ -1,0 +1,31 @@
+{
+  "name": "node-express-server",
+  "version": "1.0.0",
+  "description": "Template Repo for node-express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueltafmart/node-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migueltafmart/node-express-server/issues"
+  },
+  "homepage": "https://github.com/migueltafmart/node-express-server#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "gitmoji-cli": "^4.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
